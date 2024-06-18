@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/images/my-logo.png" type="image/x-icon" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="navbar">
+        <div class="logo-text">
+          <div class="brand-title">
+            <a href="index.html"
+              ><img src="assets/images/my-logo.png" alt="logo"
+            /></a>
+          </div>
+          <h3>Portfolio</h3>
+        </div>
+        <a
+          href="javascript:void(0);"
+          class="toggle-button"
+          onclick="toggleMenu()"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <section id="home">
+      <div class="enterance-text">
+        <h1>
+          Welcome to my portfolio. <br />
+          Let's get to know who I am!
+        </h1>
+      </div>
+      <div class="profile-container">
+        <div class="profile-photo-wrapper">
+          <img
+            src="assets/images/profile.jpg"
+            alt="Profile Photo"
+            class="profile-photo"
+          />
+          <div class="photo-border"></div>
+        </div>
+        <div class="profile-text">
+          <h2>Hello 👋 I'm Murad Ibrahimov</h2>
+          <span>and I'm a</span><span class="job-title" id="job-title"></span>
+          <p>"Rising standards with contrast"</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="social-media-icons">
+      <a href="https://www.facebook.com/murad.ibrahimov.127201/" target="_blank"
+        ><i class="fa fa-facebook" aria-hidden="true"></i
+      ></a>
+      <a
+        href="https://www.linkedin.com/in/murad-ibrahimov-b7b236252/"
+        target="_blank"
+        ><i class="fa fa-linkedin" aria-hidden="true"></i
+      ></a>
+      <a href="https://www.instagram.com/muradibra3/" target="_blank"
+        ><i class="fa fa-instagram" aria-hidden="true"></i
+      ></a>
+      <a href="https://github.com/muradibra" target="_blank"
+        ><i class="fa fa-github" aria-hidden="true"></i
+      ></a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="about-text">
+        <p>
+          My name is Murad and I am an Computer Science student at BEU,faculty
+          of Engineering. <br />
+          <!-- I work in the field of Digital Marketing as a Digital Marketer. -->
+          I am interested in programming, I have knowledge and skills in
+          Front-end development and I continue to develop them. Also, I have
+          some projects in Frontend development, some of which can be found
+          under the Projects section. You can visit my
+          <a href="https://github.com/muradibra" target="_blank">Github</a>
+          profile to see all of my projects. <br />
+          I am open to learning and interested in new technologies. <br />
+          I am a creative and productive individual who enjoys working in groups
+          and teams, and I have a passion for problem-solving. As a hobby, I
+          enjoy doing painting and drawing. <br />
+          Regardless of the field I am in, my perfectionist character motivates
+          me to strive for excellence. <br />
+          You can see all my skills on my CV and
+          <a
+            href="https://www.linkedin.com/in/murad-ibrahimov-b7b236252/"
+            target="_blank"
+            >Linkedin</a
+          >
+          profile. "
+        </p>
+      </div>
+      <div class="cv-container">
+        <a
+          href="assets/files/MuradIbrahimovCV.pdf"
+          class="cv-link"
+          target="_blank"
+          >View & Download CV</a
+        >
+        <div class="pointer-icon">&#x1F449;</div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Education & Experience</h2>
+      <div class="ex-container">
+        <ul class="ex-main-ul">
+          <li>
+            <h3>Education:</h3>
+            <ul>
+              <li>
+                <a href="https://beu.edu.az/" target="_blank"
+                  ><img src="assets/images/beu-logo.jpg" alt="beu-logo" />
+                  <b>Baku Engineering University</b></a
+                >- CS 3/4
+                <span> (September 2021-<label>In progress</label>)</span>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/school/div-academy/"
+                  target="_blank"
+                  ><img
+                    src="assets/images/div_logo.png"
+                    alt="div-academy-logo"
+                  /><b>Div Academy</b></a
+                >- Frontend Development course
+                <span> (March 2023-October 2023)</span>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/school/code-edu-az/"
+                  target="_blank"
+                  ><img
+                    src="assets/images/code-academy-logo.webp"
+                    alt="texnoera-logo"
+                  /><b>Code Academy</b></a
+                >- MERN Stack Development course
+                <span> (June 2024-<label>In progress</label>)</span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="h3-2">Experience:</h3>
+            <ul>
+              <li>
+                <a href="https://ihrs.az/az" target="_blank"
+                  ><img src="assets/images/ihrs-logo.svg" alt="ihrs-logo" /><b
+                    >Innovative HR Solutions</b
+                  ></a
+                >- Frontend Developer
+                <span>(Feb 2024 - <label>May 2024</label>)</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="slider-container">
+      <h2>Tools & Technologies</h2>
+      <div class="slider">
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"
+            ><img src="assets/images/html5.jpg" alt="HTML-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/CSS" target="_blank"
+            ><img src="assets/images/csslogo.jpg" alt="CSS-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://sass-lang.com/" target="_blank"
+            ><img src="assets/images/sass-logo.jpg" alt="Sass-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://getbootstrap.com/" target="_blank"
+            ><img src="assets/images/bootstrap-logo.webp" alt="Bootstrap-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://tailwindcss.com/" target="_blank"
+            ><img src="assets/images/tailwind-logo.webp" alt="Tailwind-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank"
+            ><img src="assets/images/JavaScript-logo.png" alt="JS-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank"
+            ><img src="assets/images/ts-logo.png" alt="TS-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://en.wikipedia.org/wiki/React_(JavaScript_library)"
+            target="_blank"
+            ><img src="assets/images/react-logo.png" alt="react-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/Git" target="_blank"
+            ><img src="assets/images/gitlogo.png" alt="Git-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/GitHub" target="_blank"
+            ><img src="assets/images/github-logo.jpg" alt="Github-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a
+            href="https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
+            target="_blank"
+            ><img src="assets/images/redux-logo.svg" alt="Redux-Toolkit-logo"
+          /></a>
+        </div>
+        <div class="slide">
+          <a href="https://en.wikipedia.org/wiki/Firebase" target="_blank"
+            ><img src="assets/images/firebase-logo.jpg" alt="firebase-logo"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <section id="language-skills">
+      <h2>Language Skills</h2>
+      <ul class="language-list">
+        <li>
+          <span class="language">English</span>
+          <div class="progress-circle" data-progress="90">
+            <svg viewBox="0 0 36 36">
+              <path
+                class="circle-bg"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="percentage">0%</text>
+            </svg>
+          </div>
+          <span class="level">B2-C1</span>
+        </li>
+        <li>
+          <span class="language">Turkish</span>
+          <div class="progress-circle" data-progress="90">
+            <svg viewBox="0 0 36 36">
+              <path
+                class="circle-bg"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="percentage">0%</text>
+            </svg>
+          </div>
+          <span class="level">B2-C1</span>
+        </li>
+        <li>
+          <span class="language">Azerbaijani</span>
+          <div class="progress-circle" data-progress="100">
+            <svg viewBox="0 0 36 36">
+              <path
+                class="circle-bg"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path
+                class="circle"
+                d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="20.35" class="percentage">0%</text>
+            </svg>
+          </div>
+          <span class="level">Native</span>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="flex-container">
+        <div class="projects-container">
+          <div class="project">
+            <img src="assets/images/larq-ss.png" alt="Project 1" />
+            <h3>Larq Ecommerce</h3>
+            <p>
+              The project aimed to develop a modern and interactive ecommerce
+              web application using React.js and Redux Toolkit.
+            </p>
+            <span>View project on</span>
+            <a
+              href="https://github.com/muradibra/larq-ecommerce"
+              target="_blank"
+              >Github</a
+            >
+          </div>
+
+          <!-- <div class="project">
+            <img src="assets/images/plan-template.png" alt="Project 2" />
+            <h3>Plans Template</h3>
+            <p>
+              The design ensures a simple, user-friendly, and visually appealing
+              experience.
+            </p>
+            <span>View project on</span>
+            <a
+              href="https://github.com/muradmaharramly/Plan-Template"
+              target="_blank"
+              >Github</a
+            >
+            <a href="https://plans-template.netlify.app" target="_blank">
+              Netlify</a
+            >
+          </div>
+          <div class="project">
+            <img src="assets/images/side-bar.png" alt="Project 1" />
+            <h3>Side Bar</h3>
+            <p>
+              This project features a navigation sidebar example, a common
+              element in modern websites
+            </p>
+            <span>View project on</span>
+            <a
+              href="https://github.com/muradmaharramly/Side-bar"
+              target="_blank"
+              >Github</a
+            >
+            <a href="https://dynamic-side-bar.netlify.app/" target="_blank"
+              >Netlify</a
+            >
+          </div>
+          <div class="project">
+            <img src="assets/images/smartfuture.png" alt="Project 2" />
+            <h3>Smart Future</h3>
+            <p>
+              IKT Club Frontend development training Final Project,using HTML,
+              CSS, and JavaScript.
+            </p>
+            <span>View project on</span>
+            <a
+              href="https://github.com/muradmaharramly/smart-future"
+              target="_blank"
+              >Github</a
+            >
+            <a href="https://smartfuture.netlify.app" target="_blank"
+              >Netlify</a
+            >
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="contact">
+        <p>
+          <i class="fa fa-whatsapp" aria-hidden="true"></i
+          ><a href="https://wa.me/994519808862" target="_blank"
+            >+994 51 980-88-62</a
+          >
+        </p>
+        <p>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i
+          ><a href="mailto:muradibrahimov495@gmail.com" target="_blank"
+            >muradibrahimov495@gmail.com</a
+          >
+        </p>
+      </div>
+      <div class="info">
+        <span
+          >Coded by
+          <a
+            href="https://www.linkedin.com/in/murad-ibrahimov-b7b236252/"
+            target="_blank"
+            >Murad Ibrahimov</a
+          >
+          |&copy; 2024</span
+        >
+      </div>
+    </footer>
+    <a href="#home" class="back-to-top" title="Back to Top">
+      <i class="fa fa-arrow-up"></i>
+    </a>
+    <script src="script.js"></script>
+    <script src="carusel.js"></script>
+    <script src="progress.js"></script>
+  </body>
+</html>
