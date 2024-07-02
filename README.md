@@ -18,8 +18,8 @@ Hi, I'm Murad Ibrahimov, a passionate and enthusiastic web developer with a know
 
 Feel free to reach out to me via the following platforms:
 
-- **LinkedIn**: [Murad Maharramli](https://www.linkedin.com/in/murradmaharramly/)
-- **GitHub**: [murad-maharramli](https://github.com/muradmaharramly)
-- **Email**: [murad.maharramli@example.com](mailto:mooradmaharramly@gmail.com)
+- **LinkedIn**: [Murad Ibrahimov](https://www.linkedin.com/in/murad-ibrahimov-b7b236252)
+- **GitHub**: [muradibra](https://github.com/muradibra)
+- **Email**: [muradibrahimov495@gmail.com(mailto:muradibrahimov495@gmail.com)
 
 Thank you for visiting my portfolio! I look forward to connecting with you.
